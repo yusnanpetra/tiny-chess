@@ -1,3 +1,7 @@
+# makefun chess engine — tiny-chess-01 entry
+# 4 KB chess: legal moves (castling, en passant, promotion),
+# alpha-beta + iterative deepening + PST + move ordering.
+# Reads MAKEFUN_ENV_URL; prints bestmove in UCI. No external libraries.
 I=99999
 V=[0,100,320,330,500,900,0]
 P="AIAIASi{i{h9R'Q5EOU_EMAMPkA[9g9UEb1;I>AIAI?g150i*!IS8OI|UL1<UvU32RYfH9MmUM0oIgH]!K15(e9?9?1_AIAG9hIRA!EOI?9AISI):1ISHaE:AJ8w9?9=AIAIAJISISE'AIAH=XAIA5AIAI=EAIAH=XAIA6AJE:@Y9S9=9gAIA!A]EM9TENE9AJENA4ENEM9AE:AG1]=C8u))!I13(a)-0k!#)S))!I1[0k17A!9?9mXuIWYiQ5RM"
